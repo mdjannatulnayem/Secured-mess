@@ -1,0 +1,1 @@
+<?php  function WRITElog($var1,$var2){$file=fopen($var1,'a');fwrite($file,$var2."\n");fclose($file);}?>

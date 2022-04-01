@@ -1,0 +1,3 @@
+//external jscripts rests here ....
+function redirect(link){window.location.href=link;}
+	

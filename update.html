@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><title>BDT-expended today ...
+</title>
+<style>
+	body{background-image:url('image-ii.jpg');
+		 background-repeat:no-repeat;
+		 background-size:cover;}
+	th	{color:red;}
+	textarea{
+		width: 180px;
+		height: 60px;
+		min-height: 40px;
+		max-height: 80px;
+		min-width: 180px;
+		max-width: 200px;
+	}
+</style>
+</head>
+<body>
+<br><center>
+	<h3>BDT/- Expended Today</h3>
+	<form action='update.php' method='POST' autocomplete='off'>
+	<table border='1'>
+	<tr bgcolor='green'>
+		<th>Essentials</th>
+	</tr>
+	<tr>
+		<td><input type='number' name='Essentials'></td>
+	</tr>
+	<tr bgcolor='green'>
+		<th>Vegetables</th>
+	</tr>
+	<tr>
+		<td><input type='number' name='Vegetables'></td>
+	</tr>
+	<tr bgcolor='green'>
+		<th>Fish</th>
+	</tr>
+	<tr>
+		<td><input type='number' name='Fish'></td>
+	</tr>
+	<tr bgcolor='green'>
+		<th>Meat</th>
+	</tr>
+	<tr>
+		<td><input type='number' name='Meat'></td>
+	</tr>
+	<tr bgcolor='green'>
+		<th>Others</th>
+	</tr>
+	<tr>
+		<td><input type='number' name='Others'></td></tr>
+	</tr>
+	</table>
+	<br><label for='submit'><b>Submit>>>>></b></label>
+	<input type='submit' name='submit'><br><br>
+	<textarea name='details' required>Groceries / products with their amount and respective values...!</textarea>
+	</form></center>
+</body>
+</html>
